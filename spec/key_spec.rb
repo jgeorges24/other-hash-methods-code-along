@@ -16,4 +16,9 @@ describe "#get_the_keys" do
     #result = get_the_keys(groceries)
     #expect(result).to eq([:dairy, :vegetable, :meat, :grains])
   end
+
+  groceries = {fruit: "Banana", vegetable: "Broccoli", dessert: "Cookie"}
+
+  groceries.keys
+
 end
